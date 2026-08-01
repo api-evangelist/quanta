@@ -1,8 +1,28 @@
 aid: quanta
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quanta.png
 name: Quanta
-description: 'Quanta is a company surfaced as a portfolio company of accel, homebrew and added to the
-  API Evangelist network as a stub for enrichment. Sector: cloud-saas. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Quanta is a San Francisco-based accounting services company built for SaaS
+  businesses, pairing expert human accountants with proprietary software that
+  "shows its work." The platform delivers continuous accounting and
+  reconciliation, explainable financial reporting through its agentic reporting
+  layer (Prism), SaaS revenue and accounts-receivable insights, and real-time
+  visibility into cash, burn, and runway alongside department-level spend
+  tracking. Quanta is a managed-services and software product for finance teams
+  rather than a developer-facing API provider; it publishes no public API,
+  developer portal, SDKs, or OpenAPI at this time. It was surfaced as a portfolio
+  company of Accel and Homebrew and added to the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/quanta/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Cloud Saas
+- Accounting
+- Fintech
+- Bookkeeping
+- Financial Reporting
+- SaaS Finance
+- Controller Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +52,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.usequanta.com/
+- type: Blog
+  url: https://www.usequanta.com/blog
+- type: Login
+  url: https://app.usequanta.com/login
+- type: TermsOfService
+  url: https://www.usequanta.com/tos
+- type: PrivacyPolicy
+  url: https://www.usequanta.com/privacy-policy
+- type: TrustCenter
+  url: security/quanta-trust-center.yml
+- type: DomainSecurity
+  url: security/quanta-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
